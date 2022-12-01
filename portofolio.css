@@ -1,0 +1,140 @@
+::-webkit-scrollbar{
+    display: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+nav{
+    display: flex;
+}
+.icon{
+    display: flex;
+}
+.imgheader img{
+    height: 67vw;
+    margin-top: -8vw;
+    opacity: 90%;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-top: 3vw;
+    margin-left: 25vw;
+}
+li{
+    padding-left: 10vw;
+    color: white;
+    z-index: 100;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav h1{
+    margin-left: 10vw;
+    margin-top: 3vw;
+    color: white;
+    z-index: 150;
+}
+nav{
+    background-image: linear-gradient(black 50%, white 100%);
+}
+.section1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 5vw;
+}
+.verticalline1{
+    background-color: #404040;
+    height: 10vw;
+    width: 0.2vw;
+    margin-right: 13vw;
+    margin-left: 13vw;
+}
+.verticalline2{
+    background-color: #404040;
+    height: 10vw;
+    width: 0.2vw;
+    margin-right: 13vw;
+    margin-left: 13vw;
+}
+.section1 a{
+    text-decoration: none;
+    color: #404040;
+}
+.section1 h1{
+    color: #404040;
+}
+.section2{
+    text-align: center;
+    color: #404040;
+}
+.section2 h1{
+    font-size: 5vw;
+}
+.section2 p{
+    font-size: 2vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+.section3{
+    text-align: center;
+    justify-content: center;
+    margin-top: 12vw;
+    font-size: 3vw;
+    color: #404040;
+}
+.portfolio{
+    display: flex;
+}
+.portfolio img{
+    height: 30vw;
+    margin-left: 9vw;
+}
+.img2{
+    margin-left: 6vw;
+    margin-right: 0vw;
+    overflow:hidden;
+}
+.horizontalline{
+    background-color: black;
+    height: 0.2vw;
+    width: 90vw;
+    margin-top: 10vw;
+    margin-bottom: 5vw;
+    margin-left: 4.5vw;
+}
+.copyright{
+    text-align: center;
+}
+.sosmedicon img{
+    height: 2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+.sosmedicon{
+    margin-left: 43vw;
+    margin-bottom: 5vw;
+}
+.home a:hover{
+    color: #404040;
+    text-shadow: 0 0 2px black;
+    transition: 0.5s;
+}
+.works a:hover{
+    color: #404040;
+    text-shadow: 0 0 2px black;
+    transition: 0.5s;
+}
+.contact a:hover{
+    color: #404040;
+    text-shadow: 0 0 2px black;
+    transition: 0.5s;
+}

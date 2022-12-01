@@ -1,0 +1,98 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+nav{
+    display: flex;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-top: 3vw;
+    margin-left: 25vw;
+}
+li{
+    padding-left: 10vw;
+    color: white;
+    z-index: 100;
+}
+li a{
+    text-decoration: none;
+    color: #404040;
+}
+
+nav h1{
+    margin-left: 10vw;
+    color: #404040;
+    z-index: 100;
+    margin-top: 3vw;
+}
+.judul{
+    text-align: center;
+    font-size: 7vw;
+    margin-top: 8vw;
+    margin-bottom: 10vw;
+    color: #404040;
+}
+.quote{
+    text-align: center;
+}
+.quote h1{
+    color: #404040;
+}
+.portfolio img{
+    height: 40vw;
+    margin-left: 3.2vw;
+}
+.circle1{
+    border-radius: 50%;
+    width: 1vw;
+    height: 1vw;
+    background-color: darkgray;
+    margin-left: 48vw;
+    margin-top: 3vw;
+    border: 0.2vw solid gray;
+}
+.circle2{
+    border-radius: 50%;
+    width: 1vw;
+    height: 1vw;
+    background-color: white;
+    margin-left: 0.5vw;
+    margin-top: 3vw;
+    border: 0.2vw solid gray;
+}
+.circle {
+    display: flex;
+}
+.quote{
+    font-size: 2vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: 5vw;
+}
+.horizontalline{
+    background-color: gray;
+    height: 0.2vw;
+    width: 90vw;
+    margin-top: 7vw;
+    margin-left: 4vw;
+    margin-bottom: 7vw;
+}
+.sosmedicon img{
+    height: 2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+.sosmedicon{
+    margin-left: 43vw;
+    margin-bottom: 5vw;
+}
+.quote{
+    font-style: italic;
+}
